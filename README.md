@@ -1,4 +1,4 @@
-# 🧠 Brain MRI Skull-Stripping using 3D U-Net
+# Brain MRI Skull-Stripping using 3D U-Net
 
 <p align="left">
   <img src="https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white" alt="TensorFlow">
@@ -12,7 +12,7 @@ The project focuses on medical image segmentation for removing non-brain tissues
 
 ---
 
-# 🔬 Model Information
+# Model Information
 
 | Model File                                  | Application               | Architecture | Input Shape         | Loss Function  |
 | :------------------------------------------ | :------------------------ | :----------- | :------------------ | :------------- |
@@ -20,7 +20,7 @@ The project focuses on medical image segmentation for removing non-brain tissues
 
 ---
 
-# 🛠️ Architecture Overview
+# Architecture Overview
 
 The model is based on a **3D U-Net** architecture designed for volumetric medical image segmentation.
 
@@ -50,7 +50,7 @@ The model is based on a **3D U-Net** architecture designed for volumetric medica
 
 ---
 
-# 📓 Training & Architecture Notebook
+# Training & Architecture Notebook
 
 The complete model architecture and training pipeline are available in:
 
@@ -68,7 +68,7 @@ The notebook includes:
 
 ---
 
-# 🚀 Getting Started
+# Getting Started
 
 ## Prerequisites
 
@@ -80,7 +80,7 @@ pip install tensorflow numpy nibabel pillow
 
 ---
 
-# 📂 Repository Structure
+# Repository Structure
 
 ```text
 Saved-Model/
@@ -92,7 +92,7 @@ Saved-Model/
 
 ---
 
-# 🧪 Load the Pre-trained Model
+# Load the Pre-trained Model
 
 ```python
 from tensorflow.keras.models import load_model
@@ -107,7 +107,7 @@ model.summary()
 
 ---
 
-# 📊 Input Specifications
+# Input Specifications
 
 | Parameter          | Value               |
 | :----------------- | :------------------ |
@@ -118,7 +118,7 @@ model.summary()
 
 ---
 
-# 🧠 Use Cases
+# Use Cases
 
 * Brain extraction from MRI scans
 * Neuroimaging preprocessing
@@ -127,7 +127,7 @@ model.summary()
 
 ---
 
-# 📚 References
+# References
 
 * U-Net: Convolutional Networks for Biomedical Image Segmentation
 * TensorFlow
@@ -136,7 +136,7 @@ model.summary()
 
 ---
 
-# 👨‍💻 Author
+# ‍ Author
 
 **Firdows Rahaman**
 
